@@ -13,11 +13,11 @@ public class EncapsulationDemo {
 
 
 
-//        GoodBankAccount goodAccount = new GoodBankAccount(1000);
-//
-//        goodAccount.deposit(500);
-//        goodAccount.withdraw(300);
-//
-//        System.out.println("Good Account Balance: " + goodAccount.getBalance());
+       GoodBankAccount goodAccount = new GoodBankAccount(1000);
+
+       goodAccount.deposit(500);
+       goodAccount.withdraw(300);
+
+       System.out.println("Good Account Balance: " + goodAccount.getBalance());
     }
 }
