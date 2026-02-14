@@ -1,0 +1,16 @@
+package org.example.solid.isp.goodExample;
+
+
+
+public class HumanWorker implements Workable, Eatable {
+
+    @Override
+    public void work() {
+        System.out.println("Human working...");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Human eating...");
+    }
+}

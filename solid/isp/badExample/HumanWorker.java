@@ -1,0 +1,14 @@
+package org.example.solid.isp.badExample;
+
+public class HumanWorker implements Worker {
+
+    @Override
+    public void work() {
+        System.out.println("Human working...");
+    }
+
+    @Override
+    public void eat() {
+        System.out.println("Human eating...");
+    }
+}
